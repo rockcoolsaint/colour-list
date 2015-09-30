@@ -244,6 +244,29 @@ EMAIL;
             return FALSE;
         }
     }
+
+    /**
+     * Retrieves the ID and verification code for a user
+     *
+     * @return mixed    an array of info or FALSE on failure
+     */
+    public function retrieveAccountInfo() {
+        $sql = "SELECT UserID, ver_code
+                FROM users
+                WHERE Username=:user";
+        try {
+            $stmt = $this->_db->prepare($sql);
+            $stmt->bindParam(':user', $_SESSION['Username'], PDO::PARAM_STR);
+            $stmt->execute();
+            $row = $stmt->fetch();
+            $stmt->closeCursor();
+            return array($row['UserID'], $row['ver_code']);
+        }
+        catch(PDOException $e)
+        {
+            return FALSE;
+        }
+    }
 }
 
 
