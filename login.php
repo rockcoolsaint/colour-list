@@ -7,7 +7,7 @@
 ?>
 
         <p>You are currently <strong>logged in.</strong></p>
-        <p><a href="/logout.php">Log out</a></p>
+        <p><a href="logout.php">Log out</a></p>
 <?php
     elseif(!empty($_POST['username']) && !empty($_POST['password'])):
         include_once 'inc/class.users.inc.php';
@@ -30,7 +30,7 @@
                 <input type="submit" name="login" id="login" value="Login" class="button" />
             </div>
         </form>
-        <p><a href="/password.php">Did you forget your password?</a></p>
+        <p><a href="password.php">Did you forget your password?</a></p>
 <?php
         endif;
     else:
@@ -48,7 +48,7 @@
                 <input type="submit" name="login" id="login" value="Login" class="button" />
             </div>
         </form><br /><br />
-        <p><a href="/password.php">Did you forget your password?</a></p>
+        <p><a href="password.php">Did you forget your password?</a></p>
 <?php
     endif;
 ?>

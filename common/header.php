@@ -22,7 +22,7 @@
         <div id="header">
 
 
-            <h1><a href="/">Colored Lists</a></h1>
+            <h1><a href="index.php">Colored Lists</a></h1>
 
 
             <div id="control">
