@@ -1,3 +1,4 @@
+<?php $pageTitle = "Home"; ?>
 <?php include_once "common/header.php"; ?>
 
 <div id="main">
@@ -9,28 +10,8 @@
           <!-- Content here -->
     <ul id="list">
     	<li class="colorRed">
-    		<span>Walk the dog</span>
-    		<div class="draggertab tab"></div>
-    		<div class="colortab tab"></div>
-    		<div class="deletetab tab"></div>
-    		<div class="donetab tab"></div>
+    		Walk the dog
     	</li>
-
-    	<li class="colorBlue">
-        <span>Pick up dry cleaning</span>
-        <div class="draggertab tab"></div>
-        <div class="colortab tab"></div>
-        <div class="deletetab tab"></div>
-        <div class="donetab tab"></div>
-    </li>
-    
-    <li class="colorGreen">
-        <span>Milk</span>
-        <div class="draggertab tab"></div>
-        <div class="colortab tab"></div>
-        <div class="deletetab tab"></div>
-        <div class="donetab tab"></div>
-    </li>
     </ul>
     <form action="" id="add-new"> 
 
@@ -69,5 +50,15 @@
 </div>
 
 <?php include_once "common/sidebar.php"; ?>
+
+<script type='text/javascript' src='bootstrap/js/jquery-1.11.3.js'></script>
+<script type='text/javascript' src='bootstrap/js/bootstrap.js'></script>
+<!--<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>-->
+<script type="text/javascript" src="js/jquery-ui-1.11.4/jquery-ui.js"></script>
+<script type="text/javascript" src="js/jquery_jeditable-master/jquery.jeditable.js"></script>
+<script type="text/javascript" src="js/lists.js"></script>
+<script type="text/javascript">
+    initialize();
+</script>
 
 <?php include_once "common/footer.php"; ?>

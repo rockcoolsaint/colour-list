@@ -4,14 +4,12 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
 
-    <title>Colored Lists | <?php echo $pageTitle ?></title>
+    <title>Colored Lists | <?php echo $pageTitle; ?></title>
 
     <link rel="shortcut icon" type="image/x-icon" href="https://cdn.css-tricks.com/favicon.ico" />
      <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css" />
 
-    <script type='text/javascript' src='../bootstrap/js/jquery-1.11.3.js'></script>
-    <script type='text/javascript' src='../bootstrap/js/bootstrap.js'></script>
 </head>
 
 <body>

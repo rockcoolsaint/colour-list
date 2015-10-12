@@ -88,7 +88,7 @@ p { margin: 0 0 6px 0; }
 .deletetab:hover { background-position: -82px -21px; }
 .donetab { position: absolute; right: -17px; width: 16px; background-position: -65px 0; cursor: pointer; }
 .donetab:hover { background-position: -65px -21px; }
-.crossout { position: absolute; top: 50%; left: 0; height: 1px; }
+.crossout { position: absolute; top: 20%; left: 0; height: 1px; }
 
 #share-area { margin: 20px 0 0 69px; width: 600px; }
 
